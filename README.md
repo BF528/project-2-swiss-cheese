@@ -1,10 +1,14 @@
-# Project Description
+# Analysis of Transcriptional Profile of Mammalian Cardiac Regeneration with mRNA-Seq
 
-A brief description of what this repository is for and what it contains
+The objective of this project is to explore/verify findings from [Transcriptional Profile of Mammalian Cardiac Regeneration with mRNA-Seq](https://pubmed.ncbi.nlm.nih.gov/25477501/). Researchers are trying to uncover the secret of heart regeneration, a function which will be lost during adulthood. 
+In this project, We acquired, processed, and analyzed sequencing data generated from different stages of mice to better understand the diffrence on the gene expressions between the period when neonatal mice are able to regenerate their heart tissue and when they lose this ability later in development.
 
 # Contributors
 
-List contributor names and github user names, or email addresses if desired
+Data Curator: [Yichi Zhang](yiz370@bu.edu)
+Programmer: [Varun Raghuraman](vrvarun@bu.edu)
+Analyst: [Neha Gupta](neha16@bu.edu)
+Biologist: [Rachel Thomas](rtpayne@bu.edu)
 
 # Repository Contents
 
