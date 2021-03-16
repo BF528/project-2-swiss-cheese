@@ -5,10 +5,10 @@ In this project, We acquired, processed, and analyzed sequencing data generated 
 
 # Contributors
 
-Data Curator: [Yichi Zhang](yiz370@bu.edu)
-Programmer: [Varun Raghuraman](vrvarun@bu.edu)
-Analyst: [Neha Gupta](neha16@bu.edu)
-Biologist: [Rachel Thomas](rtpayne@bu.edu)
+Data Curator: [Yichi Zhang](yiz370@bu.edu)<br />
+Programmer: [Varun Raghuraman](vrvarun@bu.edu)<br />
+Analyst: [Neha Gupta](neha16@bu.edu)<br />
+Biologist: [Rachel Thomas](rtpayne@bu.edu)<br />
 
 # Repository Contents
 
