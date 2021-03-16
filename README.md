@@ -18,4 +18,5 @@ Biologist: [Rachel Thomas](https://github.com/RaePayne03)<br />
 3. Quantification of gene expression.<br />
 4. Scripts that reproduce the comparison of postnatal day 0 (P0) versus Adult. It filters to find the top up- and down-regulated genes via log2 fold change. <br />
 5. A table summarizing the top cluster results from the DAVID analysis from 4. <br />
-6. Scripts that compare and visualize key gene expressions among mice samples.
+6. Scripts that compare and visualize key gene expressions among mice samples. <br />
+7. A report in details.
