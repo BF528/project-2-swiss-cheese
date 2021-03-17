@@ -1,0 +1,27 @@
+#!/bin/bash -l
+
+#$ -P bf528
+#$ -cwd
+#$ -j y
+#$ -pe mpi_16_tasks_per_node 16
+
+echo "Running job $JOB_ID"
+echo "Started: $(date +%F)"
+echo "Running in directory: $PWD"
+
+# your commands here
+module load cufflinks
+module load samtools
+module load python3
+module load R
+module load python samtools rseqc
+
+
+geneBody_coverage.py -r /project/bf528/project_2/reference/annot/mm9.bed -i /usr4/bf527/vrvarun/accepted_sorted_hits.bam -o outputcov
+
+inner_distance.py -r /project/bf528/project_2/reference/annot/mm9.bed -i /usr4/bf527/vrvarun/accepted_sorted_hits.bam -o outputdis
+
+bam_stat.py -i /usr4/bf527/vrvarun/accepted_sorted_hits.bam
+
+
+echo "Job finished: $(date +%F)"
